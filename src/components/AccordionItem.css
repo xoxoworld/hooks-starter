@@ -1,0 +1,39 @@
+.accordionItem {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.accordionHeader {
+  width: 100%;
+  text-align: left;
+  padding: 12px;
+  background: #f7f7f7;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordionTitle {
+  font-weight: 500;
+}
+
+.accordionIcon {
+  font-size: 14px;
+}
+
+.accordionBody {
+  padding: 12px;
+  background: #fff;
+}
+
+.accordionFooter {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.accordionCloseBtn {
+  cursor: pointer;
+}
